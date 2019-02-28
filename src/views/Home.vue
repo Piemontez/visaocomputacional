@@ -1,11 +1,11 @@
 <template>
   <div class="home">
   <main>
-    <section class="hero_single version_2">
+    <section id="search" class="hero_single version_2">
       <div class="wrapper">
         <div class="container">
           <h3>O que você quer aprender hoje?</h3>
-          <p>Busca pelo assunto desejado e aproveite aula.</p>
+          <p>Busque pelo assunto desejado e aproveite a aula.</p>
           <form>
             <div id="custom-search-input">
               <div class="input-group">
@@ -48,7 +48,9 @@
             <div class="block-vertical"></div>
             <div class="box_1">
               <h3>Faça parte desta comunidade</h3>
-              <p></p>
+              <p>
+                Interessado pelo tema? Inscreva-se no canal e acompanhe as novidades desta área.
+              </p>
               <a href="https://www.linkedin.com/company/visaocomputacional/" target="_blanck" class="btn_1 rounded">Link-in</a>
             </div>
           </div>

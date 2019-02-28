@@ -15,20 +15,20 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-6 ml-lg-auto">
-          <h5>Useful links</h5>
+          <h5>Links úteis</h5>
           <ul class="links">
             <li><a href="#0">Admission</a></li>
             <li><a href="#0">Sobre</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h5>Contact with Us</h5>
+          <h5>Entre em contato</h5>
           <ul class="contacts">
             <li><a href="tel://61280932400"><i class="ti-mobile"></i> + 47 99725 1117</a></li>
             <li><a href="mailto:info@udema.com"><i class="ti-email"></i> rafael@thalamus.digital</a></li>
           </ul>
           <div id="newsletter">
-          <h6>Newsletter</h6>
+          <h6>Deixe seu recado</h6>
           <div id="message-newsletter"></div>
           <form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
             <div class="form-group">
@@ -50,7 +50,7 @@
         </div>
         <div class="col-md-4">
           <div id="copy">
-            © Março de 2019 
+            © Março de 2019
             <a href="http://thalamus.digital" target="_blanck">Thalamus</a>
           </div>
         </div>
