@@ -2,8 +2,8 @@
     <div class="container-fluid margin_120_0">
       <div class="main_title_2">
         <span><em></em></span>
-        <h2>Udema Popular Courses</h2>
-        <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        <h2>Últimos cursos adicionados/atualizados</h2>
+        <p>Para você que acompanha nossas aulas ficar sempre atualizado.</p>
       </div>
       <div id="reccomended" class="owl-carousel owl-theme">
         <div class="item" v-for="item in items" v-bind:key="item.id">

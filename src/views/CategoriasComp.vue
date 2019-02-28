@@ -2,8 +2,8 @@
     <div class="container margin_30_95">
       <div class="main_title_2">
         <span><em></em></span>
-        <h2>Udema Categories Courses</h2>
-        <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+        <h2>Categorias</h2>
+        <p>Os cursos foram agrupados em grandes áreas.</p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 wow" data-wow-offset="150">

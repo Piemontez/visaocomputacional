@@ -4,13 +4,13 @@
     <section class="hero_single version_2">
       <div class="wrapper">
         <div class="container">
-          <h3>What would you learn?</h3>
-          <p>Increase your expertise in business, technology and personal development</p>
+          <h3>O que você quer aprender hoje?</h3>
+          <p>Busca pelo assunto desejado e aproveite aula.</p>
           <form>
             <div id="custom-search-input">
               <div class="input-group">
-                <input type="text" class=" search-query" placeholder="Ex. Architecture, Specialization...">
-                <input type="submit" class="btn_search" value="Search">
+                <input type="text" class=" search-query" placeholder="Ex: Morfologia, Sobel, Opencv...">
+                <input type="submit" class="btn_search" value="Procurar">
               </div>
             </div>
           </form>
@@ -23,13 +23,15 @@
       <div class="container">
         <ul>
           <li><i class="pe-7s-study"></i>
-            <h4>+200 courses</h4><span>Explore a variety of fresh topics</span>
+            <h4>0 courses</h4><span>Em breve as aulas serão disponibilizadas</span>
           </li>
-          <li><i class="pe-7s-cup"></i>
-            <h4>Expert teachers</h4><span>Find the right instructor for you</span>
+          <li>
+            <font color="#000">.</font>
+            <!--i class="pe-7s-cup"></i>
+            <h4>Expert teachers</h4><span>Find the right instructor for you</span-->
           </li>
           <li><i class="pe-7s-target"></i>
-            <h4>Focus on target</h4><span>Increase your personal expertise</span>
+            <h4>Nosso objetivo</h4><span>Disponibilizar aulas gratuitas em português</span>
           </li>
         </ul>
       </div>
@@ -45,9 +47,9 @@
           <div class="block-reveal">
             <div class="block-vertical"></div>
             <div class="box_1">
-              <h3>Enjoy a great students community</h3>
-              <p>Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip voluptatibus pri. Ei mea primis ornatus disputationi. Menandri erroribus cu per, duo solet congue ut. </p>
-              <a href="#0" class="btn_1 rounded">Read more</a>
+              <h3>Faça parte desta comunidade</h3>
+              <p></p>
+              <a href="https://www.linkedin.com/company/visaocomputacional/" target="_blanck" class="btn_1 rounded">Link-in</a>
             </div>
           </div>
         </div>
