@@ -29,11 +29,11 @@
           </ul>
           <div id="newsletter">
           <h6>Deixe seu recado</h6>
-          <div id="message-newsletter"></div>
-          <form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+          <p v-if="!!sendmsg">{{sendmsg}}</p>
+          <form method="post" v-if="!sendmsg" v-on:submit.prevent="onSubmit">
             <div class="form-group">
-              <input type="text" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Deixe sua mensagem">
-              <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Seu e-mail">
+              <input type="text"  v-model="message" class="form-control" placeholder="Deixe sua mensagem">
+              <input type="email" v-model="email" class="form-control" placeholder="Seu e-mail">
               <input type="submit" value="Enviar" id="submit-newsletter">
             </div>
           </form>
@@ -60,7 +60,38 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  name: 'AppFooter'
+  name: 'AppFooter',
+  data: function () {
+    return {
+      sendmsg: '',
+      message: '',
+      email: ''
+    }
+  },
+  methods: {
+    onSubmit: function () {
+      this.sendmsg = 'Encaminhando mensagem'
+      axios
+        .post('http://visaocomputacional.com.br:9091/', {
+          origem: 'Visão computacional',
+          subject: 'Recado visão computacional',
+          email: this.email,
+          message: this.message
+        })
+        .then(response => {
+          this.sendmsg = 'Mensagem encaminhada com sucesso'
+          this.email = ''
+          this.message = ''
+        })
+        .catch(response => {
+          this.sendmsg = 'Ocorreu um erro ao encaminhar msg, tente novamente mais tarde'
+          this.email = ''
+          this.message = ''
+        })
+    }
+  }
 }
 </script>
