@@ -7,9 +7,9 @@
           <img src="../img/emconstrucao.png" height="150">
           <br/><br/><br/><br/>
 
-          <h3>O que você quer aprender hoje?</h3>
+          <h3>O que você gostaria de aprender hoje?</h3>
           <p>
-            Estamos trabalhando para utilizar este espaço, da melhor forma possível.
+            Estamos trabalhando para utilizar este espaço da melhor forma possível.
           </p>
           <!--
           <form>
