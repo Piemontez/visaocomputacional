@@ -11,9 +11,9 @@
     <div v-if="preloadshow" id="preloader">
       <div data-loader="circle-side"></div>
     </div>
-
+    <!--
     <AppNav/>
-
+    -->
     <router-view/>
 
     <AppFooter/>

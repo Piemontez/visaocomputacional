@@ -4,8 +4,14 @@
     <section id="search" class="hero_single version_2">
       <div class="wrapper">
         <div class="container">
+          <img src="../img/emconstrucao.png" height="150">
+          <br/><br/><br/><br/>
+
           <h3>O que você quer aprender hoje?</h3>
-          <p>Busque pelo assunto desejado e aproveite a aula.</p>
+          <p>
+            Estamos trabalhando para utilizar este espaço, da melhor forma possível.
+          </p>
+          <!--
           <form>
             <div id="custom-search-input">
               <div class="input-group">
@@ -14,12 +20,14 @@
               </div>
             </div>
           </form>
+          -->
         </div>
       </div>
     </section>
     <!-- /hero_single -->
 
     <div class="features clearfix">
+    <!--
       <div class="container">
         <ul>
           <li><i class="pe-7s-study"></i>
@@ -27,32 +35,34 @@
           </li>
           <li>
             <font color="#000">.</font>
-            <!--i class="pe-7s-cup"></i>
-            <h4>Expert teachers</h4><span>Find the right instructor for you</span-->
+            <i class="pe-7s-cup"></i>
+            <h4>Expert teachers</h4><span>Find the right instructor for you</span>
           </li>
           <li><i class="pe-7s-target"></i>
             <h4>Nosso objetivo</h4><span>Disponibilizar aulas gratuitas em português</span>
           </li>
         </ul>
       </div>
+    -->
     </div>
+
     <!-- /features -->
 
+    <!--
     <PopularComp />
     <CategoriasComp />
+     -->
 
-    <div class="call_section">
-      <div class="container clearfix">
-        <div class="col-lg-5 col-md-6 float-right wow" data-wow-offset="250">
-          <div class="block-reveal">
-            <div class="block-vertical"></div>
-            <div class="box_1">
-              <h3>Faça parte desta comunidade</h3>
-              <p>
-                Interessado pelo tema? Inscreva-se no canal e acompanhe as novidades desta área.
-              </p>
-              <a href="https://www.linkedin.com/company/visaocomputacional/" target="_blanck" class="btn_1 rounded">Link-in</a>
-            </div>
+    <div class="container margin_30_95 clearfix" style="margin-top:50px">
+      <div class="col-lg-5 col-md-6 float-right wow animated" data-wow-offset="250" style="visibility: visible;">
+        <div class="block-reveal">
+          <div class="block-vertical"></div>
+          <div class="box_1">
+            <h3>Faça parte desta comunidade.</h3>
+            <p>
+              Interessado pelo tema? Inscreva-se no canal e seja informado do lançamento.
+            </p>
+            <a href="https://www.linkedin.com/company/visaocomputacional/" target="_blanck" class="btn_1 rounded">Link-in</a>
           </div>
         </div>
       </div>
