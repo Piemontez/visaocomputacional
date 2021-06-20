@@ -1,29 +1,37 @@
 version: "3.9"
     
 services:
-  db:
+  vc_db:
     image: mysql:5.7
     volumes:
-      - db_data:/var/lib/mysql
+      - "../tmp/mysql:/var/lib/mysql"
+    ports:
+      - "3306:3306" 
+    networks:
+      - vc-net
     environment:
       MYSQL_ROOT_PASSWORD: somewordpress
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+    command: '--default-authentication-plugin=mysql_native_password'
     
-  wordpress:
+  vc_wordpress:
     depends_on:
-      - db
+      - vc_db
     image: wordpress:5.7.2
     volumes:
-      - wordpress_data:/var/www/html
+      - "../tmp/html:/var/www/html"
     ports:
       - "${SYSTEM_PORT}:80"
+    networks:
+      - vc-net
     environment:
-      WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_USER: piemontez
-      WORDPRESS_DB_PASSWORD: 0rq9@Ntl
-      WORDPRESS_DB_NAME: 0rq19@Ntl
-volumes:
-  db_data: {}
-  wordpress_data: {}
+      WORDPRESS_DB_HOST: vc_db:3306
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+
+networks:
+  vc-net:
+    driver: bridge
