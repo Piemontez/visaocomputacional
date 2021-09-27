@@ -25,6 +25,7 @@ services:
       - "../wordpress:/var/www/html"
       - "../tmp/html/upgrade:/var/www/html/wp-content/upgrade"
       - "../tmp/html/uploads:/var/www/html/wp-content/uploads"
+      - "../tmp/bkps:/var/www/html/bkps"
     ports:
       - "${SYSTEM_PORT}:80"
     networks:

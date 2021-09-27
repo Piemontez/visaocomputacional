@@ -8,6 +8,7 @@ echo "Verificando e criando pastas de dados"
 mkdir -p ../tmp/mysql
 mkdir -p ../tmp/html/upgrade
 mkdir -p ../tmp/html/uploads
+mkdir -p ../tmp/html/bkps
 
 #CONFIG
 if [ ! -f "$CONF_FILE" ]; then
