@@ -1638,7 +1638,7 @@ function _unzip_file_ziparchive( $file, $to, $needed_dirs = array() ) {
 	foreach ( $needed_dirs as $_dir ) {
 		// Only check to see if the Dir exists upon creation failure. Less I/O this way.
 		if ( ! $wp_filesystem->mkdir( $_dir, FS_CHMOD_DIR ) && ! $wp_filesystem->is_dir( $_dir ) ) {
-			return new WP_Error( 'mkdir_failed_ziparchive', __( 'Could not create directory.' ), substr( $_dir, strlen( $to ) ) );
+			return new WP_Error( 'mkdir_failed_ziparchive', __( 'Could not create directory.' ) . ' '. $_dir, substr( $_dir, strlen( $to ) ) );
 		}
 	}
 	unset( $needed_dirs );
@@ -1779,7 +1779,7 @@ function _unzip_file_pclzip( $file, $to, $needed_dirs = array() ) {
 	foreach ( $needed_dirs as $_dir ) {
 		// Only check to see if the dir exists upon creation failure. Less I/O this way.
 		if ( ! $wp_filesystem->mkdir( $_dir, FS_CHMOD_DIR ) && ! $wp_filesystem->is_dir( $_dir ) ) {
-			return new WP_Error( 'mkdir_failed_pclzip', __( 'Could not create directory.' ), substr( $_dir, strlen( $to ) ) );
+			return new WP_Error( 'mkdir_failed_pclzip', __( 'Could not create directory.' ). ' '. $_dir, substr( $_dir, strlen( $to ) ) );
 		}
 	}
 	unset( $needed_dirs );
@@ -1853,7 +1853,7 @@ function copy_dir( $from, $to, $skip_list = array() ) {
 		} elseif ( 'd' === $fileinfo['type'] ) {
 			if ( ! $wp_filesystem->is_dir( $to . $filename ) ) {
 				if ( ! $wp_filesystem->mkdir( $to . $filename, FS_CHMOD_DIR ) ) {
-					return new WP_Error( 'mkdir_failed_copy_dir', __( 'Could not create directory.' ), $to . $filename );
+					return new WP_Error( 'mkdir_failed_copy_dir', __( 'Could not create directory.' ) . ' ' . $to . $filename, $to . $filename );
 				}
 			}
 

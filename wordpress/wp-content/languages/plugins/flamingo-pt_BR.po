@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Flamingo - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-16 17:50:15+0000\n"
+"PO-Revision-Date: 2021-09-13 13:15:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Flamingo - Stable (latest release)\n"
+
+#: includes/class-contact.php:168 includes/class-inbound-message.php:234
+#: includes/class-outbound-message.php:112
+msgid "Flamingo 2.2"
+msgstr "Flamingo 2.2"
 
 #: includes/csv.php:45
 msgid "https://contactform7.com/heads-up-about-spreadsheet-vulnerabilities"
@@ -166,39 +171,39 @@ msgstr "Email"
 msgid "History"
 msgstr "Histórico"
 
-#: admin/includes/class-contacts-list-table.php:121
+#: admin/includes/class-contacts-list-table.php:123
 msgid "View all tags"
 msgstr "Ver todas as tags"
 
+#: admin/includes/class-contacts-list-table.php:131
 #: admin/includes/class-inbound-messages-list-table.php:257
 #: admin/includes/class-outbound-messages-list-table.php:171
-#: admin/includes/class-contacts-list-table.php:128
 msgid "Filter"
 msgstr "Filtro"
 
+#: admin/includes/class-contacts-list-table.php:203
 #: admin/includes/class-outbound-messages-list-table.php:217
-#: admin/includes/class-contacts-list-table.php:198
 msgid "Edit"
 msgstr "Editar"
 
+#: admin/includes/class-contacts-list-table.php:171
 #: admin/includes/class-inbound-messages-list-table.php:308
 #: admin/includes/class-outbound-messages-list-table.php:223
-#: admin/includes/class-contacts-list-table.php:166
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Editar &#8220;%s&#8221;"
 
-#: admin/includes/class-contacts-list-table.php:254
+#: admin/includes/class-contacts-list-table.php:259
 msgid "User"
 msgstr "Usuário"
 
-#: admin/includes/class-contacts-list-table.php:273
+#: admin/includes/class-contacts-list-table.php:278
 msgid "Comment (%d)"
 msgstr "Comentários (%d)"
 
 #. translators: date format, see https://www.php.net/date
+#: admin/includes/class-contacts-list-table.php:351
 #: admin/includes/class-inbound-messages-list-table.php:454
 #: admin/includes/class-outbound-messages-list-table.php:248
-#: admin/includes/class-contacts-list-table.php:346
 msgid "Y/m/d"
 msgstr "d/m/Y"
 
@@ -231,8 +236,8 @@ msgstr "Primeiro nome"
 msgid "Last name"
 msgstr "Último nome"
 
-#: includes/class-outbound-message.php:130
 #: includes/class-inbound-message.php:252
+#: includes/class-outbound-message.php:130
 msgid "(No Title)"
 msgstr "(Sem Título)"
 
@@ -240,8 +245,8 @@ msgstr "(Sem Título)"
 msgid "To"
 msgstr "Para"
 
+#: admin/includes/class-contacts-list-table.php:136
 #: admin/includes/class-inbound-messages-list-table.php:261
-#: admin/includes/class-contacts-list-table.php:131
 msgid "Export"
 msgstr "Exportar"
 
@@ -262,7 +267,7 @@ msgstr[0] "Spam <span class=\"count\">(%s)</span>"
 msgstr[1] "Spam <span class=\"count\">(%s)</span>"
 
 #. translators: 1: contact channel name, 2: contact count
-#: admin/includes/class-contacts-list-table.php:308
+#: admin/includes/class-contacts-list-table.php:313
 msgctxt "contact history"
 msgid "%1$s (%2$d)"
 msgstr "%s (%d)"
@@ -279,8 +284,8 @@ msgstr "Enviar"
 msgid "Messages updated."
 msgstr "Mensagens atualizadas."
 
-#: admin/includes/meta-boxes.php:11
 #: admin/includes/class-contacts-list-table.php:95
+#: admin/includes/meta-boxes.php:11
 msgid "Delete"
 msgstr "Excluir"
 

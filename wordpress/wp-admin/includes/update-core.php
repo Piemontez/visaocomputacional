@@ -1501,7 +1501,7 @@ function _copy_dir( $from, $to, $skip_list = array() ) {
 		} elseif ( 'd' === $fileinfo['type'] ) {
 			if ( ! $wp_filesystem->is_dir( $to . $filename ) ) {
 				if ( ! $wp_filesystem->mkdir( $to . $filename, FS_CHMOD_DIR ) ) {
-					return new WP_Error( 'mkdir_failed__copy_dir', __( 'Could not create directory.' ), $to . $filename );
+					return new WP_Error( 'mkdir_failed__copy_dir', __( 'Could not create directory.' ) . ' ' .  $to . $filename, $to . $filename );
 				}
 			}
 

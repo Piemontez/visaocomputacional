@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-12 20:28:44+0000\n"
+"PO-Revision-Date: 2021-09-17 17:20:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -91,13 +91,13 @@ msgstr "Configurar integração"
 msgid "Sendinblue is active on this site."
 msgstr "Sendinblue está ativo neste site."
 
-#: modules/sendinblue/service.php:151
 #: modules/sendinblue/contact-form-properties.php:94
+#: modules/sendinblue/service.php:151
 msgid "Sendinblue integration"
 msgstr "Integração Sendinblue"
 
-#: modules/sendinblue/service.php:150
 #: modules/sendinblue/contact-form-properties.php:93
+#: modules/sendinblue/service.php:150
 msgid "https://contactform7.com/sendinblue-integration/"
 msgstr "https://contactform7.com/sendinblue-integration/"
 
@@ -109,9 +109,9 @@ msgstr "Armazene e organize seus contatos enquanto protege a privacidade do usu�
 msgid "You have not been authenticated. Make sure the provided API key is correct."
 msgstr "Você não está autenticado. Confirme se a chave API fornecida está correta."
 
-#: modules/sendinblue/service.php:30
 #: modules/sendinblue/contact-form-properties.php:102
 #: modules/sendinblue/contact-form-properties.php:296
+#: modules/sendinblue/service.php:30
 msgid "Sendinblue"
 msgstr "Sendinblue"
 
@@ -193,8 +193,8 @@ msgstr "%1$s e %2$s"
 msgid "Additional settings"
 msgstr "Configurações adicionais"
 
-#: modules/constant-contact.php:469 modules/sendinblue/service.php:125
-#: modules/sendinblue/service.php:133 modules/recaptcha/recaptcha.php:438
+#: modules/constant-contact.php:469 modules/recaptcha/recaptcha.php:438
+#: modules/sendinblue/service.php:125 modules/sendinblue/service.php:133
 msgid "Error"
 msgstr "Erro"
 
@@ -532,7 +532,7 @@ msgid_plural "%s configuration errors detected"
 msgstr[0] "%s erro de configuração encontrado"
 msgstr[1] "%s erros de configuração encontrados"
 
-#: includes/rest-api.php:185 includes/rest-api.php:252 admin/admin.php:574
+#: admin/admin.php:574 includes/rest-api.php:185 includes/rest-api.php:252
 msgid "There was an error saving the contact form."
 msgstr "Ocorreu um erro ao salvar o formulário de contato."
 
@@ -736,8 +736,8 @@ msgstr[1] "Validar %s formulários"
 msgid "You are not allowed to validate configuration."
 msgstr "Você não tem permissão para validar a configuração."
 
-#: modules/recaptcha/recaptcha.php:194 modules/recaptcha/recaptcha.php:452
-#: admin/includes/welcome-panel.php:35
+#: admin/includes/welcome-panel.php:35 modules/recaptcha/recaptcha.php:194
+#: modules/recaptcha/recaptcha.php:452
 msgid "https://contactform7.com/recaptcha/"
 msgstr "https://contactform7.com/recaptcha/"
 
@@ -749,15 +749,15 @@ msgstr "Chave secreta"
 msgid "Site Key"
 msgstr "Chave do site"
 
-#: modules/sendinblue/service.php:141 modules/recaptcha/recaptcha.php:444
+#: modules/recaptcha/recaptcha.php:444 modules/sendinblue/service.php:141
 msgid "Settings saved."
 msgstr "Configurações salvas."
 
-#: modules/sendinblue/service.php:134 modules/recaptcha/recaptcha.php:439
+#: modules/recaptcha/recaptcha.php:439 modules/sendinblue/service.php:134
 msgid "Invalid key values."
 msgstr "Valores de chave inválidas."
 
-#: modules/recaptcha/recaptcha.php:228 admin/includes/welcome-panel.php:36
+#: admin/includes/welcome-panel.php:36 modules/recaptcha/recaptcha.php:228
 msgid "reCAPTCHA"
 msgstr "reCAPTCHA"
 
@@ -806,8 +806,8 @@ msgstr "Este campo é o endereço de e-mail do autor"
 msgid "This field requires author's name"
 msgstr "Este campo é o nome do autor"
 
-#: modules/text.php:278 modules/text.php:281
-#: admin/includes/welcome-panel.php:32
+#: admin/includes/welcome-panel.php:32 modules/text.php:278
+#: modules/text.php:281
 msgid "Akismet"
 msgstr "Akismet"
 
@@ -883,19 +883,19 @@ msgstr "Gera uma tag de formulário para um botão de submissão. Para mais deta
 msgid "submit"
 msgstr "enviar"
 
-#: modules/select.php:202
+#: modules/select.php:204
 msgid "Insert a blank item as the first option"
 msgstr "Insira um item em branco como primeira opção"
 
-#: modules/select.php:201
+#: modules/select.php:203
 msgid "Allow multiple selections"
 msgstr "Permitir seleção múltipla"
 
-#: modules/select.php:168
+#: modules/select.php:170
 msgid "Generate a form-tag for a drop-down menu. For more details, see %s."
 msgstr "Gera uma tag de formulário para um menu suspenso. Para mais detalhes, veja %s."
 
-#: modules/select.php:161
+#: modules/select.php:163
 msgid "drop-down menu"
 msgstr "menu suspenso"
 
@@ -1025,13 +1025,13 @@ msgstr "Min"
 msgid "Range"
 msgstr "Intervalo"
 
-#: modules/text.php:273 modules/textarea.php:177 modules/date.php:201
-#: modules/number.php:198
+#: modules/date.php:201 modules/number.php:198 modules/text.php:273
+#: modules/textarea.php:177
 msgid "Use this text as the placeholder of the field"
 msgstr "Utilize este texto como um espaço reservado"
 
-#: modules/text.php:271 modules/textarea.php:175 modules/date.php:199
-#: modules/number.php:196
+#: modules/date.php:199 modules/number.php:196 modules/text.php:271
+#: modules/textarea.php:175
 msgid "Default value"
 msgstr "Valor padrão"
 
@@ -1063,8 +1063,8 @@ msgstr "A data é mais adiantada do que o limite mínimo"
 msgid "Date format that the sender entered is invalid"
 msgstr "Formato da data que o remetente digitou é inválido"
 
-#: modules/text.php:329 modules/select.php:231 modules/textarea.php:204
 #: modules/checkbox.php:302 modules/date.php:245 modules/number.php:242
+#: modules/select.php:233 modules/text.php:329 modules/textarea.php:204
 msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
 msgstr "Para utilizar o valor introduzido através deste campo em um e-mail, você deve inserir a mail-tag correspondente (%s) no campo correto na aba Mail."
 
@@ -1080,29 +1080,29 @@ msgstr "Envolver cada item com o elemento de rótulo"
 msgid "Put a label first, a checkbox last"
 msgstr "Insira primeiro um rótulo, por último a caixa de seleção"
 
-#: modules/select.php:200 modules/checkbox.php:268
+#: modules/checkbox.php:268 modules/select.php:202
 msgid "One option per line."
 msgstr "Uma opção por linha"
 
-#: modules/text.php:260 modules/select.php:184 modules/textarea.php:164
-#: modules/file.php:138 modules/checkbox.php:251 modules/date.php:188
-#: modules/number.php:185
+#: modules/checkbox.php:251 modules/date.php:188 modules/file.php:138
+#: modules/number.php:185 modules/select.php:186 modules/text.php:260
+#: modules/textarea.php:164
 msgid "Required field"
 msgstr "Campo obrigatório"
 
-#: modules/text.php:256 modules/text.php:259 modules/select.php:180
-#: modules/select.php:183 modules/textarea.php:160 modules/textarea.php:163
-#: modules/file.php:134 modules/file.php:137 modules/checkbox.php:247
-#: modules/checkbox.php:250 modules/date.php:184 modules/date.php:187
-#: modules/number.php:176 modules/number.php:179
+#: modules/checkbox.php:247 modules/checkbox.php:250 modules/date.php:184
+#: modules/date.php:187 modules/file.php:134 modules/file.php:137
+#: modules/number.php:176 modules/number.php:179 modules/select.php:182
+#: modules/select.php:185 modules/text.php:256 modules/text.php:259
+#: modules/textarea.php:160 modules/textarea.php:163
 msgid "Field type"
 msgstr "Tipo de campo"
 
-#: modules/select.php:170 modules/checkbox.php:236
+#: modules/checkbox.php:236 modules/select.php:172
 msgid "Checkboxes, radio buttons and menus"
 msgstr "Caixas de seleção, botões de rádio e menus"
 
-#: modules/select.php:170 modules/checkbox.php:236
+#: modules/checkbox.php:236 modules/select.php:172
 msgid "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
 msgstr "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
 
@@ -1151,7 +1151,7 @@ msgstr "Gera uma tag de form para uma imagem CAPTCHA e seu campo de resposta. Pa
 msgid "To use CAPTCHA, you first need to install and activate %s plugin."
 msgstr "Para usar o CAPTCHA, você primeiro precisa instalar e ativar o plugin %s."
 
-#: modules/recaptcha/recaptcha.php:9 modules/really-simple-captcha.php:283
+#: modules/really-simple-captcha.php:283 modules/recaptcha/recaptcha.php:9
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
@@ -1163,39 +1163,39 @@ msgstr "O código digitado está incorreto."
 msgid "The code that sender entered does not match the CAPTCHA"
 msgstr "O código digitado pelo remetente não confere com o CAPTCHA"
 
-#: modules/text.php:324 modules/select.php:226 modules/textarea.php:199
-#: modules/file.php:177 modules/acceptance.php:299
-#: modules/really-simple-captcha.php:335 modules/checkbox.php:297
-#: modules/date.php:240 modules/quiz.php:261 modules/number.php:237
-#: modules/submit.php:88
+#: modules/acceptance.php:299 modules/checkbox.php:297 modules/date.php:240
+#: modules/file.php:177 modules/number.php:237 modules/quiz.php:261
+#: modules/really-simple-captcha.php:335 modules/select.php:228
+#: modules/submit.php:88 modules/text.php:324 modules/textarea.php:199
 msgid "Insert Tag"
 msgstr "Inserir tag"
 
-#: modules/text.php:311 modules/select.php:213 modules/textarea.php:186
-#: modules/file.php:164 modules/acceptance.php:286
+#: modules/acceptance.php:286 modules/checkbox.php:284 modules/date.php:228
+#: modules/file.php:164 modules/number.php:225 modules/quiz.php:248
 #: modules/really-simple-captcha.php:308 modules/really-simple-captcha.php:323
-#: modules/checkbox.php:284 modules/date.php:228 modules/quiz.php:248
-#: modules/number.php:225 modules/submit.php:75
+#: modules/select.php:215 modules/submit.php:75 modules/text.php:311
+#: modules/textarea.php:186
 msgid "Class attribute"
 msgstr "Classe do atributo"
 
-#: modules/text.php:306 modules/select.php:208 modules/textarea.php:181
-#: modules/file.php:159 modules/acceptance.php:281
+#: modules/acceptance.php:281 modules/checkbox.php:279 modules/date.php:223
+#: modules/file.php:159 modules/number.php:220 modules/quiz.php:243
 #: modules/really-simple-captcha.php:303 modules/really-simple-captcha.php:318
-#: modules/checkbox.php:279 modules/date.php:223 modules/quiz.php:243
-#: modules/number.php:220 modules/submit.php:70
+#: modules/select.php:210 modules/submit.php:70 modules/text.php:306
+#: modules/textarea.php:181
 msgid "Id attribute"
 msgstr "ID do atributo"
 
-#: modules/select.php:195 modules/select.php:198 modules/acceptance.php:271
-#: modules/acceptance.php:274 modules/checkbox.php:263 modules/checkbox.php:266
+#: modules/acceptance.php:271 modules/acceptance.php:274
+#: modules/checkbox.php:263 modules/checkbox.php:266 modules/select.php:197
+#: modules/select.php:200
 msgid "Options"
 msgstr "Opções"
 
-#: modules/text.php:266 modules/select.php:190 modules/textarea.php:170
-#: modules/file.php:144 modules/acceptance.php:261
-#: modules/really-simple-captcha.php:293 modules/checkbox.php:258
-#: modules/date.php:194 modules/quiz.php:227 modules/number.php:191
+#: modules/acceptance.php:261 modules/checkbox.php:258 modules/date.php:194
+#: modules/file.php:144 modules/number.php:191 modules/quiz.php:227
+#: modules/really-simple-captcha.php:293 modules/select.php:192
+#: modules/text.php:266 modules/textarea.php:170
 msgid "Name"
 msgstr "Nome"
 
@@ -1420,7 +1420,7 @@ msgstr "Corpo da mensagem"
 msgid "Additional headers"
 msgstr "Cabeçalhos adicionais"
 
-#: includes/contact-form-template.php:40 admin/includes/editor.php:163
+#: admin/includes/editor.php:163 includes/contact-form-template.php:40
 msgid "Subject"
 msgstr "Assunto"
 
@@ -1478,7 +1478,7 @@ msgstr "Shortcode"
 msgid "Title"
 msgstr "Título"
 
-#: admin/includes/editor.php:252 admin/edit-contact-form.php:261
+#: admin/edit-contact-form.php:261 admin/includes/editor.php:252
 msgid "Additional Settings"
 msgstr "Configurações adicionais"
 
@@ -1487,15 +1487,15 @@ msgstr "Configurações adicionais"
 msgid "Additional Settings (%d)"
 msgstr "Configurações Adicionais (%d)"
 
-#: admin/includes/editor.php:222 admin/edit-contact-form.php:245
+#: admin/edit-contact-form.php:245 admin/includes/editor.php:222
 msgid "Messages"
 msgstr "Mensagens"
 
-#: admin/includes/editor.php:93 admin/edit-contact-form.php:241
+#: admin/edit-contact-form.php:241 admin/includes/editor.php:93
 msgid "Mail"
 msgstr "Mail"
 
-#: admin/includes/editor.php:61 admin/edit-contact-form.php:237
+#: admin/edit-contact-form.php:237 admin/includes/editor.php:61
 msgid "Form"
 msgstr "Formulário"
 
@@ -1507,11 +1507,11 @@ msgstr "Suporte"
 msgid "https://contactform7.com/support/"
 msgstr "https://contactform7.com/support/"
 
-#: admin/includes/help-tabs.php:93 admin/edit-contact-form.php:193
+#: admin/edit-contact-form.php:193 admin/includes/help-tabs.php:93
 msgid "FAQ"
 msgstr "Perguntas frequentes"
 
-#: admin/includes/help-tabs.php:93 admin/edit-contact-form.php:192
+#: admin/edit-contact-form.php:192 admin/includes/help-tabs.php:93
 msgid "https://contactform7.com/faq/"
 msgstr "https://contactform7.com/faq/"
 
@@ -1519,7 +1519,7 @@ msgstr "https://contactform7.com/faq/"
 msgid "Docs"
 msgstr "Documentação"
 
-#: admin/includes/help-tabs.php:92 admin/edit-contact-form.php:196
+#: admin/edit-contact-form.php:196 admin/includes/help-tabs.php:92
 msgid "https://contactform7.com/docs/"
 msgstr "https://contactform7.com/docs/"
 
@@ -1532,13 +1532,13 @@ msgstr ""
 "\n"
 " 'Cancelar' para não excluir, 'OK' para excluir."
 
-#: admin/includes/class-contact-forms-list-table.php:90
 #: admin/edit-contact-form.php:168
+#: admin/includes/class-contact-forms-list-table.php:90
 msgid "Delete"
 msgstr "Excluir"
 
-#: admin/includes/class-contact-forms-list-table.php:187
 #: admin/edit-contact-form.php:153
+#: admin/includes/class-contact-forms-list-table.php:187
 msgid "Duplicate"
 msgstr "Duplicar"
 
@@ -1644,19 +1644,19 @@ msgstr "Você não está autorizado a editar este item."
 msgid "Integration"
 msgstr "Integração"
 
-#: admin/edit-contact-form.php:47 admin/admin.php:52 admin/admin.php:432
+#: admin/admin.php:52 admin/admin.php:432 admin/edit-contact-form.php:47
 msgid "Add New"
 msgstr "Adicionar novo"
 
-#: admin/edit-contact-form.php:36 admin/admin.php:51
+#: admin/admin.php:51 admin/edit-contact-form.php:36
 msgid "Add New Contact Form"
 msgstr "Adicionar novo formulário de contato"
 
-#: includes/contact-form.php:31 admin/admin.php:41 admin/admin.php:425
+#: admin/admin.php:41 admin/admin.php:425 includes/contact-form.php:31
 msgid "Contact Forms"
 msgstr "Formulários de contato"
 
-#: admin/edit-contact-form.php:38 admin/admin.php:40
+#: admin/admin.php:40 admin/edit-contact-form.php:38
 msgid "Edit Contact Form"
 msgstr "Editar formulário de contato"
 
@@ -1665,6 +1665,6 @@ msgid "Contact"
 msgstr "Contato"
 
 #. Plugin Name of the plugin
-#: modules/flamingo.php:201 admin/admin.php:29 includes/block-editor/index.js:1
+#: admin/admin.php:29 modules/flamingo.php:201 includes/block-editor/index.js:1
 msgid "Contact Form 7"
 msgstr "Contact Form 7"
