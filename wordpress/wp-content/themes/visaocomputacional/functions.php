@@ -415,7 +415,7 @@ if ( ! function_exists( 'visao_computacional_comment' ) ) :
 			'url'     => '',
 			'cookies' => '<p class="form-check mb-3 comment-form-cookies-consent">
 							<input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" class="form-check-input" type="checkbox" value="yes"' . $consent . ' />
-							<label class="form-check-label" for="wp-comment-cookies-consent">' . esc_html__( 'Save my name, email, and website in this browser for the next time I comment.', 'visao-computacional' ) . '</label>
+							<label class="form-check-label" for="wp-comment-cookies-consent">Salve meu nome e email neste navegador para a próxima vez que eu comentar.</label>
 						</p>',
 		);
 
@@ -429,7 +429,7 @@ if ( ! function_exists( 'visao_computacional_comment' ) ) :
 			'must_log_in'          => '<p class="must-log-in">' . sprintf( wp_kses_post( __( 'You must be <a href="%s">logged in</a> to post a comment.', 'visao-computacional' ) ), wp_login_url( apply_filters( 'the_permalink', get_the_permalink( get_the_ID() ) ) ) ) . '</p>',
 			/** This filter is documented in wp-includes/link-template.php */
 			'logged_in_as'         => '<p class="logged-in-as">' . sprintf( wp_kses_post( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>', 'visao-computacional' ) ), get_edit_user_link(), $user->display_name, wp_logout_url( apply_filters( 'the_permalink', get_the_permalink( get_the_ID() ) ) ) ) . '</p>',
-			'comment_notes_before' => '<p class="small comment-notes">' . esc_html__( 'Your Email address will not be published.', 'visao-computacional' ) . '</p>',
+			'comment_notes_before' => '<p class="small comment-notes">Seu endereço de e-mail não será publicado</p>',
 			'comment_notes_after'  => '',
 			'id_form'              => 'commentform',
 			'id_submit'            => 'submit',
@@ -437,8 +437,8 @@ if ( ! function_exists( 'visao_computacional_comment' ) ) :
 			'name_submit'          => 'submit',
 			'title_reply'          => '',
 			'title_reply_to'       => esc_html__( 'Leave a Reply to %s', 'visao-computacional' ),
-			'cancel_reply_link'    => esc_html__( 'Cancel reply', 'visao-computacional' ),
-			'label_submit'         => esc_html__( 'Post Comment', 'visao-computacional' ),
+			'cancel_reply_link'    => 'Cancelar resposta',
+			'label_submit'         => 'Publicar comentário',
 			'submit_button'        => '<input type="submit" id="%2$s" name="%1$s" class="%3$s" value="%4$s" />',
 			'submit_field'         => '<div class="form-submit">%1$s %2$s</div>',
 			'format'               => 'html5',

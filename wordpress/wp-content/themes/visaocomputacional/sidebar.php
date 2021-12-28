@@ -60,7 +60,7 @@ if ( is_active_sidebar( 'primary_widget_area' ) || is_archive() || is_single() )
 						if ( ! is_author() ) :
 					?>
 							<li>&nbsp;</li>
-							<li><a href="<?php echo esc_url( get_the_permalink( get_option( 'page_for_posts' ) ) ); ?>" class="btn btn-outline-secondary"><?php esc_html_e( 'check all posts', 'visao-computacional' ); ?></a></li>
+							<li><a href="<?php echo esc_url( get_the_permalink( get_option( 'page_for_posts' ) ) ); ?>" class="btn btn-outline-secondary">Ver todos os posts</a></li>
 					<?php
 						endif;
 					?>

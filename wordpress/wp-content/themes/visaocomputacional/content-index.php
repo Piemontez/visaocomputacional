@@ -35,10 +35,10 @@
 						the_excerpt();
 					endif;
 				?>
-				<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . esc_html__( 'Pages:', 'visao-computacional' ) . '</span>', 'after' => '</div>' ) ); ?>
+				<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>Páginas: </span>', 'after' => '</div>' ) ); ?>
 			</div><!-- /.card-text -->
 			<footer class="entry-meta">
-				<a href="<?php echo get_the_permalink(); ?>" class="btn btn-outline-secondary"><?php esc_html_e( 'read more', 'visao-computacional' ); ?></a>
+				<a href="<?php echo get_the_permalink(); ?>" class="btn btn-outline-secondary">Leia mais</a>
 			</footer><!-- /.entry-meta -->
 		</div><!-- /.card-body -->
 	</div><!-- /.col -->
