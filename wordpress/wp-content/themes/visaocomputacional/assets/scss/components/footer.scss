@@ -1,0 +1,136 @@
+#footer .menu-item a[aria-current=page] {
+    color: #FFFFFF !important;
+}
+
+footer {
+    .vc-footer-info {
+        background-color: $grey-primary !important;
+        padding: 4rem 0 2rem 0;
+        color: #FFFFFF;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: breakpoint-max(lg)) { 
+            .vc-col-1,  .vc-col-2,  .vc-col-3,  .vc-col-4 {
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgb(255, 255, 255);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                -webkit-background-clip: padding-box; /* for Safari */
+                background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+            }
+        }
+
+        .vc-col-1 {
+            @media (max-width: breakpoint-max(lg)) { 
+                text-align: center;
+            }
+
+            img {
+                max-width: 250px;
+                max-height: 150px;
+            }
+        }
+
+        .vc-col-2 {
+            .sc-block {
+                @media (min-width: breakpoint-max(lg)) { 
+                    margin-bottom: 20px;
+                    padding-bottom: 20px;
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                    -webkit-background-clip: padding-box; /* for Safari */
+                    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+                }
+
+                margin-bottom: 20px;
+                display: block;
+
+                .sc-title {
+                    color: #FFFFFF;
+                    display: block;
+
+                    &:hover {
+                        color: $green;
+                    }
+                }
+                .sc-date {
+                    color: $yellow;
+                    text-transform: uppercase;
+                    display: block;
+                    font-size: 12px;
+                    margin-top: 5px;
+
+                    &:hover {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+        .vc-col-3 {
+            ul {
+                padding-left: 1rem;
+
+                li {
+                    margin-bottom: 5px;
+                    
+                    a {
+                        color: #FFFFFF; 
+
+                        &:hover {
+                            color: $green;
+                        }
+                    }
+
+                    &::marker {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+
+        .vc-col-4 {
+            @media (max-width: breakpoint-max(lg)) { 
+                text-align: center;
+            }
+
+            .wpforms-form {
+                max-width: 300px;
+
+                @media (max-width: breakpoint-max(lg)) { 
+                    margin: auto;
+                }
+                
+                .wpforms-field-container {
+                    input {
+                        border-radius: 10px !important;
+                        height: 50px !important;
+                    }           
+                }
+                
+
+                .wpforms-submit-container {
+                    button {
+                        border-radius: 10px;
+                        width: 100%;
+                        background-color: $green !important;
+                        border: 0px !important;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        } 
+    }
+   .vc-footer-copy {
+        background-color: $gray-900;
+        padding: 1rem 0;
+        color: #FFFFFF;
+
+        .vc-footer-copyright {
+            text-align: center;
+        }   
+   }   
+} 
