@@ -27,12 +27,12 @@
 							<div class="entry-author-info">
 								<span>
 									<?php 
-									echo __('By', 'visao-computacional') . ' ';
+									echo 'Por ';
 									echo get_the_author_link(get_the_author(get_the_ID()));  
 									?>
 								</span>
 								<small>
-									<?php echo __('Posted in', 'visao-computacional') . ' ' . get_the_date('j, Y'); ?>
+									<?php 'Publicado em ' . get_the_date('j, Y'); ?>
 								</small>
 							</div>
 						</div>
@@ -50,7 +50,7 @@
 
 							the_content();
 
-							wp_link_pages( array( 'before' => '<div class="page-link"><span>' . esc_html__( 'Pages:', 'visao-computacional' ) . '</span>', 'after' => '</div>' ) );
+							wp_link_pages( array( 'before' => '<div class="page-link"><span>Páginas:</span>', 'after' => '</div>' ) );
 						?>
 					</div><!-- /.entry-content -->
 

@@ -27,7 +27,7 @@ $the_query = new WP_Query( $args );
                             <h3><?php echo the_title(); ?></h3>
                             <span><?php echo the_Excerpt(); ?></span>
 
-                            <a href="<?php echo get_post_permalink() ?>" class="btn btn-yellow"><?php echo __('Read more', 'visao-computacional')?></a>
+                            <a href="<?php echo get_post_permalink() ?>" class="btn btn-yellow">Leia mais</a>
                         </div>
                     </div>
                 <?php
@@ -43,9 +43,7 @@ $the_query = new WP_Query( $args );
                     <div class="col-12 offset-md-3 col-md-6">
                         <div class="vc-no-courses">
                             <span>
-                                <?php
-                                    echo __('No courses available at this moment.', 'visao-computacional');
-                                ?>
+                                Sem cursos disponíveis no momento.
                             </span>
                         </div>
                         <div class="row">

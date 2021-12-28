@@ -33,7 +33,7 @@
 										<span class="sc-title"><?php echo $recent->post_title ?></span>
 										<span class="sc-date">
 										<?php 
-											echo __('Posted in', 'visao-computacional') . ' ' . date('d/m/Y', strtotime($recent->post_date )); 
+											echo 'Publicado em ' . date('d/m/Y', strtotime($recent->post_date )); 
 										?>
 										</span>
 									</a>

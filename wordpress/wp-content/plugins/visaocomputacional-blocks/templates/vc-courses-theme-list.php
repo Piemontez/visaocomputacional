@@ -4,7 +4,7 @@ $amnt = (!(empty(get_field('vc_amount_elements')))) ? get_field('vc_amount_eleme
 
 ?>
 <div class="vc-courses-theme-list">
-    <h2><?php echo __('Subjects', 'visao-computacional') ?></h2>
+    <h2>Assuntos</h2>
     <div class="row">
         <div class="container">
             <div class="vc-ctl-cat">
