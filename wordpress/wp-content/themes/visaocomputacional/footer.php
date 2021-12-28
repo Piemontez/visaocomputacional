@@ -85,6 +85,7 @@
 					<div class="row">
 						<div class="col-md-12 vc-footer-copyright">
 							<p><?php printf( esc_html__( '&copy; %1$s %2$s. All rights reserved.', 'visao-computacional' ), date_i18n( 'Y' ), get_bloginfo( 'name', 'display' ) ); ?></p>
+							<p>Desenvolvido por <a href="mailto:ariellelucca@gmail.com" style="color: white">Arielle Lucca</a> | <a href="http://thalamus.digital/" style="color: white"></a></p>                        
 						</div>
 					</div><!-- /.row -->
 				</div>
