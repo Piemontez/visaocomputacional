@@ -1,0 +1,73 @@
+.vc-page-title, .page-header {
+    background-color: $yellow;
+    margin-bottom: 3rem;
+    padding: 20px 0;
+    color: $gray-100;
+    font-family: $font-family;
+    text-align: center;
+}
+
+.blog-pagination {
+  height: 50px;
+  text-align: center;
+
+  .prev, .next {
+    background: $yellow;
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding: 5px 18px !important;
+  }
+
+  .page-numbers {
+    border-radius: 10px;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 2px solid $yellow;
+    background-color: $yellow;
+    color: #FFF;
+  }
+
+  .current{
+    border: 2px solid $yellow;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: $primary;
+    background-color: #FFF;
+    color: $grey-primary;
+  }
+
+}
+
+.vc-classes-certificates {
+  .vc-cc-badge {
+    filter: brightness(0);
+
+    img {
+      max-height: 140px;
+      width: auto;
+    }
+
+    @media (max-width: breakpoint-max(md)) {
+      display: none;
+    }
+  }
+}
+
+
+// 404
+#post-0 {
+  @media (max-width: breakpoint-max(md)) { 
+    margin: 60px 0;
+  }
+  @media (min-width: breakpoint-min(md)) { 
+    margin: 10% 0;
+  }
+}

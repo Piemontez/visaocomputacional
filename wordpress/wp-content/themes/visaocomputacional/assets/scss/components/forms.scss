@@ -1,0 +1,43 @@
+.form-reuniao {
+    border-radius: 15px;
+    background-color: $gray-100;
+    padding: 30px;
+
+    h2 {
+        text-align: center;
+        color: #000000;
+    }
+
+     .wpforms-container {
+        form {
+            .wpforms-field-container {
+                input, textarea {  
+                    border: 0;
+                }
+            }
+        }
+     }
+}
+
+ .wpforms-container {
+        form {
+            .wpforms-field-container {
+                input, textarea {  
+                    border-radius: 7px;
+                }
+                input {
+                    height: 50px;
+                }
+            }
+
+            .wpforms-submit-container {
+                button {
+                    background-color: $green !important;
+                    border: 0!important;
+                    border-radius: 10px;
+                    color: #FFFFFF !important;
+                    width: 100%;
+                }
+            }
+        }
+    }

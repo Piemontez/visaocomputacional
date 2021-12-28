@@ -1,0 +1,46 @@
+.vc-banner-three-cols {
+    .vc-btc-wrapper {
+        box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.07);
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 30px 0px 23px 0px;
+        background-color: #FFFFFF;
+
+
+
+        .vc-btc-title {
+            text-align: left;
+            color: $gray-900;
+            font-family: $font-family;
+            font-size: 24px;
+            font-weight: 500;
+            text-transform: capitalize;
+            line-height: 1.1em;
+            letter-spacing: 0px;
+
+            svg {
+                width: 20px;
+                height: 20px;
+                fill: $yellow;
+                margin-right: 10px;
+            }
+        }
+        .vc-btc-txt {
+            text-align: left;
+            color: $gray-900;
+            font-family: $font-family;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.5em;
+            letter-spacing: 0px;
+        }
+
+        .vc-btc {
+            padding: 50px;
+        }
+        .vc-btc:not(:last-child) {
+            border-right: 1px solid $gray-200;
+        }
+    }
+}
