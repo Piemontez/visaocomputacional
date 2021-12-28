@@ -76,7 +76,7 @@ use VisaoComputacional\Theme\Menu;
 
 									<?php 
 									foreach ( get_field( 'bt_redes_sociais', 'options' ) as $social ) { ?>
-										<a href="<?php echo $social['bt_rede_social_url'] ?>" target="_blank">
+										<a href="<?php echo $social['bt_rede_social_url'] ?>" target="_blank" rel="noreferrer noopener">
 											<?php echo visao_computacional_get_svg("assets/icons/".$social['bt_rede_social'].".svg"); ?>
 										</a>
 										<?php
