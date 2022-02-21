@@ -26,12 +26,11 @@ $amnt = (!(empty(get_field('vc_amount_elements')))) ? get_field('vc_amount_eleme
         </div>
     </div>
     <div class="vc-ctl-list">
-        <div id="list-term-<?php echo $category->term_id ?>" class="vc-list-category">
+        <div id="list-term-0" class="vc-list-category">
             <div class="row">
                 <?php
                     $posts = get_posts(array(
                         'numberposts' => 10,
-                        'category' => $cat->term_id,
                         'orderby' => 'date',
                         'order' => 'DESC',
                         'status' => 'published',
